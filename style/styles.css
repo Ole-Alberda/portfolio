@@ -1,0 +1,222 @@
+
+
+
+body{
+    background-color: #283618;
+}
+
+p {
+    font-family: 'clash display', 'sans serif';
+    font-style: normal;
+    font-size: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    color: white;
+
+}
+
+/*HEADER*/
+header {
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+
+}
+
+header nav ul li {
+    list-style: none;
+    font-family: 'clash display', 'sans serif';
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+
+}
+/*HEADER*/
+
+
+
+/*HOME*/
+
+h1  {
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 7em;
+    font-family: Love, sans-serif;
+    color: #E2C2AD;
+
+
+    animation-name: ole;
+    animation-duration: 3s;
+}
+
+@keyframes ole {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*HOME*/
+
+/* ABOUTME */
+
+.profielfoto {
+    width: 20em;
+    border-radius: 7em;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'clash display', 'sans-serif';
+    font-size: 2em;
+    font-weight:normal;
+    font-style: italic;
+    color: #DDA15e;
+}
+
+h3 {
+    padding: 0%;
+    font-family: 'clash display', 'sans-serif';
+    font-size: 1.5em;
+    font-weight: normal;
+    color: white;
+    text-decoration-line: underline;
+}
+.ontwerpkwaliteiten {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding-left: 4em;
+}
+
+.ontwerpkwaliteiten img {
+    display: flex;
+    background-color: #283618;
+    padding: 1em;
+}
+
+.ontwerpkwaliteiten p {
+    padding: 0em;
+    color: white;
+}
+
+/* ABOUTME */
+
+/* PROJECTEN */
+
+.projecten {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 2.5em;
+}
+
+.projecten img {
+    transition: transform 1.5s ease;
+}
+
+.projecten img:hover {
+    transform: scale(1.10);
+}
+
+/* PROJECTEN */
+
+/* CONTACT */
+
+.contact-werftekst{
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Apple Garamon', 'sans serif';
+    font-size: 3em;
+    font-weight:normal;
+    font-style: italic;
+    color: #C2F1FA;
+    margin: 0em;
+}
+
+form {
+    font-family: 'clash display', 'sans serif';
+    background-color: white;
+    padding: 1em;
+    margin: 15em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+    border: 0.2em solid #1A240F;
+    text-align: center;
+}
+
+form h2 {
+    color: #1A240F;
+}
+
+form div {
+    margin-bottom: 2em;
+}
+
+label {
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+input,textarea {
+    width: 80%;
+    padding: 0.8em;
+    border: 1px solid #1A240F;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'clash display';
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 30%;
+    padding: 0.8em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    background-color: #87BC4A;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1A240F;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1A240F;
+}
+
+footer ul {
+    padding: 3em;
+    list-style: none;
+    display: flex;
+    gap: 6em;
+    justify-content: center;
+    margin-bottom: 0em;
+}
+/* FOOTER */
+
+/* bronvermelding:  */
+/* chatgpt.com  */
+/* developer.mozilla.org */
